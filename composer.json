@@ -1,5 +1,5 @@
 {
-  "name": "cleverage/sylius-dpd-plugin",
+  "name": "juicesweb/sylius-dpd-plugin",
   "type": "sylius-plugin",
   "description": "Simple DPD REST Plugin for Sylius",
   "keywords": [
@@ -24,8 +24,8 @@
     }
   ],
   "require": {
-    "php": "^7.4",
-    "sylius/sylius": "~1.8.0 || ~1.9.0",
+    "php": "^7.4 || ^8.0",
+    "sylius/sylius": "~1.8.0 || ~1.9.0 || ~1.10.0 || ~1.11.0",
     "ext-simplexml": "*",
     "ext-json": "*"
   },
